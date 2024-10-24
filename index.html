@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">
+            <input id="inp" type="text" >
+        </div>
+        <div id="btns">
+            <button onclick="clearr()" class="oval">C</button>
+            
+            <button onclick="addTodisplay('/')" class="orange" id="right">÷</button>
+           <br> 
+            <button onclick="addTodisplay('7')">7</button>  
+            <button onclick="addTodisplay('8')">8</button>
+            <button onclick="addTodisplay('9')">9</button>
+            <button onclick="addTodisplay('*')" class="orange">x</button>
+            <br>
+            <button onclick="addTodisplay('4')">4</button>
+            <button onclick="addTodisplay('5')">5</button>
+            <button onclick="addTodisplay('6')">6</button>
+            <button onclick="addTodisplay('-')" class="orange">-</button>
+            <br>
+            <button onclick="addTodisplay('1')">1</button>
+            <button onclick="addTodisplay('2')">2</button>
+            <button onclick="addTodisplay('3')">3</button>
+            <button onclick="addTodisplay('+')" class="orange">+</button>
+            <br>
+            <button onclick="addTodisplay('0')" >0</button>
+            <button onclick="addTodisplay('00')">00</button>
+            <button onclick="addTodisplay('.')" >.</button>
+            <button onclick="calculate()" class="orange">=</button>
+
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

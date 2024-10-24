@@ -1,0 +1,75 @@
+button{
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+#btns{
+    
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+   
+}
+#calculator{
+    background-color: black;
+    max-width: 500px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    color: black;
+    border: none;
+    height: 200px;
+
+}
+body{
+    margin-left: 30%;
+    display: flex;
+    height: 850px;
+    margin-top: 40px;
+   /* Center the calculator horizontally */
+   background-image: url(img\ 3.jpg);
+   background-size: cover;
+    
+}
+
+.left{
+    margin-left: 20px;
+}
+#inp{
+    height: 200px;
+    width: 450px;
+    margin-right: 50px;
+    font-size: 4rem;
+}
+#right{
+    margin-left: 235px;
+}
+.orange{
+    background-color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.orange:hover{
+    background-color: rgb(255, 123, 0);
+}
+
+#calculator button:not(.orange):hover{
+    background-color: brown;
+}
+
